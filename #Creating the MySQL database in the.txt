@@ -1,0 +1,20 @@
+#Creating the MySQL database in the computer system
+#step-by-step
+
+1. CREATE DATABASE / Select the DATABASE if created
+
+2. CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), income INT, electricity INT, food INT, fuel INT, internet INT, rent INT, others INT, total_expenses INT, monthly_savings INT);
+
+3. INSERT INTO customers (name, income, electricity, food, fuel, internet, rent, others, total_expenses, monthly_savings) VALUES 
+('ALYE', 50000, 2000, 7000, 3000, 1000, 15000, 4000, 32000, 18000),
+('BRICKSTON', 60000, 2500, 8000, 3500, 1200, 18000, 5000, 38200, 21800),
+('CHARU', 75000, 3000, 9000, 4000, 1500, 20000, 6000, 44000, 31000),
+('DANIEL', 80000, 2200, 8500, 4500, 1400, 25000, 7000, 48600, 31400),
+('EVA', 55000, 2000, 7500, 2500, 1000, 18000, 4500, 35500, 19500),
+('FAULKNER', 70000, 3000, 9500, 5000, 2000, 20000, 6000, 45500, 24500),
+('GAUTAM', 90000, 4000, 12000, 6000, 3000, 30000, 7000, 55000, 35000),
+('HARVARD', 100000, 3500, 11000, 5500, 2500, 32000, 8000, 56500, 43500),
+('ISAAC', 65000, 2500, 9000, 4000, 2000, 22000, 5500, 44000, 21000),
+('JOKINSON', 85000, 3000, 10000, 5000, 1500, 28000, 6000, 48500, 36500);
+
+4. SELECT * FROM customers;
